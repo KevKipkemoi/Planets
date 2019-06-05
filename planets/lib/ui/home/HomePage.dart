@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:planets/ui/home/GradientAppBar.dart';
-import 'package:planets/ui/home/HomePageBody.dart'
+import 'package:planets/ui/home/HomePageBody.dart';
 
 class HomePage extends StatelessWidget {
 
