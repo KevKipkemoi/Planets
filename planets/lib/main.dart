@@ -4,8 +4,10 @@ import 'package:planets/ui/home/HomePage.dart';
 
 void main() {
 //  Routes.initRoute();
-  runApp(new MaterialApp(
-    title: "Planets",
-    home: new HomePage(),
-  ));
+  runApp(
+    new MaterialApp(
+      title: "Planets",
+      home: new HomePage(),
+  )
+  );
 }
