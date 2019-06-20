@@ -15,7 +15,14 @@ class DetailPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             new Text(planet.name),
-            new Image.asset(planet.image, width: 96.0, height: 96.0,)
+            new Hero(
+              tag: "planet-hero-${planet.id}",
+              child: new Image.asset(
+                planet.image,
+                width: 96.0,
+                height: 96.0,
+              ),
+            ),
           ],
         ),
       ),
